@@ -5,7 +5,7 @@ var md = markdown({ html: true }).use(mdnh)
 
 module.exports = {
   method: 'get',
-  endpoint: 'admin/projects/new',
+  endpoint: '/admin/projects/new',
   authenticated: true,
   middleware: [],
   controller: getProjectsNew
